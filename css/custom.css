@@ -1,0 +1,284 @@
+/* Main body */
+body {
+  color: #FFF;
+  font-size: 16px;
+  padding-top: 65px;
+
+}
+
+body, h1, h2, h3 {
+/*  font-family: 'Signika', sans-serif;*/
+font-family: 'Bangers', cursive;
+}
+
+.btn-custom {
+  color: #FFF;
+  border-color: #cccccc;
+}
+
+.btn-custom:hover {
+  color: #FFF39F;
+  }
+
+/* Navbar Stuff */
+
+.navbar {
+  padding: .5em;
+}
+.navbar-inverse {
+    background-color: #C44E44;
+    border-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav a, .navbar-brand {
+  color: #FFF !important;
+}
+
+.navbar-inverse .navbar-nav li:hover {
+  background-color: #8f352d;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+
+
+
+
+/* Section Colors */
+.bg-darkgreen, .bg-overdone, .bg-widow {
+  background-image: url("../img/adinkra_pattern.png");
+}
+
+.bg-darkgreen {
+  background-color: #679180;
+}
+
+.bg-overdone {
+  background-color: #918067;
+}
+
+.bg-widow {
+  background-color: #776C5C;
+}
+
+.bg-volcanoland {
+  background-color: #C44E44;
+}
+
+.bg-bubblegum {
+  background-color: #E44F60;
+}
+
+/* Text colors */
+.text-dark {
+  color: #000;
+}
+
+/* Carousel Stuff */
+.carousel img {
+  max-height: 700px;
+}
+.caption-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#register_box {
+  padding: 1em;
+  text-align: center;
+}
+
+#carousel_bottom {
+  padding: 2em 0;
+  color: #000;
+}
+
+/* fullwidth video (not cross-browser compatible) */
+video { width: 100%;}
+
+.video-overlay {
+  position: absolute;
+  display: block;
+  width: 600px;
+  height: 300px;
+  right: 40%;
+  bottom: 20%;
+  padding: 1em;
+}
+
+/* Section Stuff */
+
+.top-buffer { margin-top:2em; }
+.bottom-buffer { margin-bottom:2em; }
+
+/* add the section class to a section to give it padding */
+.section {
+  padding: 6em 0;
+}
+
+section a {
+  color: #FFF39F;
+}
+
+/* this adds a > before links only in certain section */
+/*section.section a::before{
+  content: "> ";
+}*/
+
+.section-header {
+  font-size: 3em;
+  margin: 0 0 1em 0;
+}
+
+#map-box {
+  position: relative;
+}
+
+#map {
+  width: 100%;
+}
+
+.location-info {
+  position: absolute;
+  width: 35%;
+  z-index: 100;
+  top: 0;
+  padding: 1em;
+  background-color: #918067;
+  display: block;
+  }
+
+/* Footer Stuff */
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: #FFF;
+}
+
+/* Media Queries */
+@media (max-width: 990px) {
+  .people-row div:nth-child(2n+1) {
+    clear: both;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .people-row img {
+    max-width: 200px;
+  }
+
+}

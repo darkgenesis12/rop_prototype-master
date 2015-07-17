@@ -1,0 +1,310 @@
+  <!-- Speaker 1 profile-->
+  
+  <div class="container">
+    <div class="row destacados">
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><img src="img/bison.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Prof. Bison</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 2 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal2"><img src="img/napoleon.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Napoleon</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 3 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal3"><img src="img/beyonce.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Ms. Beyonce</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <br></br>
+
+  <!-- Speaker 4 profile-->
+  
+  <div class="container">
+    <div class="row destacados">
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal4"><img src="img/bison.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Prof. Bison X2</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 5 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal5"><img src="img/napoleon.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Napoleon X2</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 6 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal6"><img src="img/beyonce.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Ms. Beyonce X2</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Modal for Speaker 1-->
+  
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+          <h4 class="modal-title" id="myModalLabel">More About Speaker 1</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="img/bison.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+            <h3 class="media-heading">Speaker 1<small>Blah Blah University</small></h3>
+            <span><strong>Skills: </strong></span>
+            <span class="label label-warning">Int'l Development</span>
+            <span class="label label-info">Economics</span>
+            <span class="label label-info">HTML/CSS</span>
+            <span class="label label-success">Windows XP, Vista, 7</span>
+          </center>
+          <hr>
+          <center>
+            <p class="text-left"><strong>Bio: </strong><br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+              <br>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <center>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<br></br>
+
+
+<!-- Modal for Speaker 2-->
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 2</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/napoleon.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 2<small> Blue Blue University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<br></br>
+
+<!-- Modal for Speaker 3-->
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<!-- Modal for Speaker 4-->
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Speaker 5-->
+
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Speaker 6-->
+
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+--------
+
+place this below </footer> but above </body>
+
+<!-- Javascript-->
+
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+    
+    

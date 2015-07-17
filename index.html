@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--     <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'> -->
+  <link href='http://fonts.googleapis.com/css?family=Signika:600|Bangers' rel='stylesheet' type='text/css'>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+  rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  
+</head>
+<title>
+  Rites of Passage Conference - July 2016
+</title>
+<body>
+  <header class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" class="img-responsive"></a>                    
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#aboutus">About Us</a>
+          </li>
+          <li>
+            <a href="eventdetails.html">Event Details</a>
+          </li>
+          <li>
+            <a href="register.html">Register</a>
+          </li> 
+          <li>
+            <a href="sponsor.html">Sponsor</a>
+          </li>
+          <li>
+            <a href="donate.html">Donate</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#login" data-toggle="modal" data-target="#login-modal">Login</a>
+
+            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+              <div class="modal-dialog">
+                <div class="loginmodal-container">
+                  <h1>Login to Your Account</h1><br>
+                  <form>
+                    <input type="text" name="user" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                  </form>
+
+                  <div class="login-help">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>                                              
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- END NAV -->
+  <section>
+  <div class="video-overlay caption-bg text-center hidden-sm hidden-xs">
+            <h2>Rites of Passage Conference</h2>
+            <p class="lead">July 7-10th, 2016</p>
+            <div class="btn-toolbar">
+                <a class="btn btn-custom btn-lg navbar-btn">Register</a>
+                <p>Click Here to Sponsor another Attendee</p>
+    </div>
+  </div>
+  <video autoplay loop id="bgvid">
+        <source src="oceans-reduced.mp4" type="video/mp4">
+        </video>
+  <div class="caption-bg hidden-md hidden-lg" id="register_box">
+    <h2>Rites of Passage Conference</h2>
+    <p class="lead">July 7-10th, 2016</p>
+    <div class="btn-toolbar">
+      <a class="btn btn-custom btn-lg navbar-btn">Register</a>
+      <a class="btn btn-custom btn-lg navbar-btn">Donate or Sponsor</a>
+    </div>
+  </div>
+  <div id="carousel_bottom" class="section text-center text-dark">
+    <div class="container">                    
+      <h2>You can create opportunities for young people of Afrikan descent.</h2>      
+      <p class="lead">Rites of Passage helps young people find their purpose in life, contribute positively to their community and find the resiliency to navigate their turbulent lives. Rites of Passage has proved life-changing results on it's participants.</p>     
+      <a class="btn btn-lg btn-success" href="#">Find out more</a>
+    </div>
+  </div>  <!-- end register_box -->  
+</section>
+<section class="section bg-widow">
+  <div class="container">
+    <div class="row bottom-buffer">
+      <div class="col-md-12">
+        <h2 class="text-center section-header">Speakers</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row destacados">
+        <div class="col-md-4">
+          <div>
+            <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><img src="img/profiles/obama.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+            <h3>Barack</h3>
+          </div>
+        </div>   
+        <div class="col-md-4">
+          <div>
+            <a href="#aboutModal" data-toggle="modal" data-target="#myModal2"><img src="img/profiles/obama.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+            <h3>Barack</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="#aboutModal" data-toggle="modal" data-target="#myModal3"><img src="img/profiles/beyonce.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+            <h3>Ms. Beyonce</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section text-dark text-center">
+  <div class="container">
+    <h2 class="section-header">Event Details</h2> 
+    <div class="row">
+
+	    <div class="col-lg-12">
+	        <h1 class="page-header">Place holder Gallery</h1>
+	    
+	            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+	            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Place" data-caption="Rights of Passage Community" data-image="img/v1.jpg" data-target="#image-gallery">
+	                <img class="img-responsive" src="img/v1.jpg" alt="Short alt text">
+	            </a>
+	        </div>
+	            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+	            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="What group is this" data-caption="Rights of Passage Workshop in progress" data-image="img/v2.jpg" data-target="#image-gallery">
+	                <img class="img-responsive" src="img/v2.jpg" alt="A alt text">
+	            </a>
+	        </div>
+	            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+	            <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="What Event" data-caption="False Calendar" data-image="img/v3.jpg" data-target="#image-gallery">
+	                <img class="img-responsive" src="img/v3.jpg" alt="Another alt text">
+	            </a>
+	        </div>
+	</div>
+
+
+	<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+	                <h4 class="modal-title" id="image-gallery-title"></h4>
+	            </div>
+	            <div class="modal-body">
+	                <img id="image-gallery-image" class="img-responsive" src="">
+	            </div>
+	            <div class="modal-footer">
+
+	                <div class="col-md-2">
+	                    <button type="button" class="btn btn-primary" id="show-previous-image">Previous</button>
+	                </div>
+
+	                <div class="col-md-8 text-justify" id="image-gallery-caption">
+	                    This text will be overwritten by jQuery
+	                </div>
+
+	                <div class="col-md-2">
+	                    <button type="button" id="show-next-image" class="btn btn-default">Next</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+  </div>  
+</section>      
+<section id="participants" class="section bg-overdone">
+  <div class="container">
+    <div class="row bottom-buffer">
+      <div class="col-md-12">
+        <h2 class="text-center section-header">Confirmed Participants</h2>
+      </div>
+    </div>
+    <!-- Speaker 4 profile-->
+  
+  <div class="container">
+    <div class="row destacados">
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal4"><img src="img/profiles/obama.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Barack</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 5 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal5"><img src="img/profiles/obama.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Barack</h3>
+        </div>
+      </div>
+      
+      <!-- Speaker 6 profile-->
+      
+      <div class="col-md-4">
+        <div>
+          <a href="#aboutModal" data-toggle="modal" data-target="#myModal6"><img src="img/profiles/beyonce.jpg" name="aboutme" width="140" height="140" class="img-circle"></a>
+          <h3>Ms. Beyonce X2</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="anchor section text-dark text-center" id="aboutus">
+  <div class="container">
+    <h2 class="section-header">About Us</h2>           
+    <p>
+      Rites of Passage is not a “program”, it is a process of maturation and personal development, practices in many indigenous cultures designed to assist  young people as they transition into responsible adulthood, which, if successful, has a long-term, positive impact on their values, perception of self, level of discipline and their commitment to family and community. Rites, known by many name,  is practiced in First Nations Cultures of North and South America, the original Peoples of Australia, and in many Afrikan Traditional Cultures, just to name a few. 
+    </p>
+    <p>
+      The Akan of West Afrika believed that this ‘Process” is critical in affirming and clarifying four age old questions, which, if successfully instituted and embraced, will harvest young adults  poised to contribute to the continued building and sustainability of their communities; 
+    </p>
+    <ol>
+      <li>Who am I? (What values, history, traditions and cultural precepts do I recognize, respect, and continue?)</li>
+      <li>How did I come to be who I am? (what were/are the forces, events, people which have come together to frame who I am?)</li>
+      <li>Am I really who I think I am? (To what extent do I understand, internalize, employ, and reflect the cultural authenticity of my origins?)</li>
+      <li>What is my life Purpose?</li>
+    </ol>
+  </div>  
+</section>  
+<section> <!-- begin map section -->
+  <div id="map-box">
+    <img class="img-responsive" src="img/staticmap.png" id="map">
+    <div class="container">
+
+      <div class="location-info hidden-xs">
+        <h2>Location</h2>
+        <p class="lead">Thursday (Reception) @ The Crystal ROM<br>
+          Friday-Sunday @ The University of Toronto, St.George Campus</p>
+        </div>
+      </div>
+    </div>
+  </section> <!-- end map-box -->  
+
+  <section>
+    <h3>Our Sponsors</h3>
+    <div class="row">
+      <div class="col-md-4 bottom-buffer">
+        <img src="img/woodgreen_logo.gif">
+      </div>
+      <div class="col-md-4 bottom-buffer">
+        <img src="img/woodgreen_logo.gif">
+      </div>
+      <div class="col-md-4 bottom-buffer">
+        <img src="img/woodgreen_logo.gif">
+      </div>
+    </div>
+  </section>
+
+    <!-- Modal for Speaker 1-->
+  
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+          <h4 class="modal-title" id="myModalLabel">More About Speaker 1</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="img/profiles/obama.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+            <h3 class="media-heading">Speaker 1<small>Blah Blah University</small></h3>
+            <span><strong>Skills: </strong></span>
+            <span class="label label-warning">Int'l Development</span>
+            <span class="label label-info">Economics</span>
+            <span class="label label-info">HTML/CSS</span>
+            <span class="label label-success">Windows XP, Vista, 7</span>
+          </center>
+          <hr>
+          <center>
+            <p class="text-left"><strong>Bio: </strong><br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+              <br>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <center>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<br></br>
+
+
+<!-- Modal for Speaker 2-->
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 2</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/profiles/obama.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 2<small> Blue Blue University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<br></br>
+
+<!-- Modal for Speaker 3-->
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/profiles/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<!-- Modal for Speaker 4-->
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/profiles/obama.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Speaker 5-->
+
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/profiles/obama.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Speaker 6-->
+
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 class="modal-title" id="myModalLabel">More About Speaker 3</h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="img/profiles/beyonce.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+          <h3 class="media-heading">Speaker 3<small> Green Green University</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">Int'l Development</span>
+          <span class="label label-info">Economics</span>
+          <span class="label label-info">HTML/CSS</span>
+          <span class="label label-success">Windows XP, Vista, 7</span>
+        </center>
+        <hr>
+        <center>
+          <p class="text-left"><strong>Bio: </strong><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer class="bg-volcanoland section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 bottom-buffer">
+          
+        </div>
+      </div>
+      <div class="row" id="contact">
+        <div class="col-md-4">
+          <p>&copy;Rites of Passage Site Design by Digital Tech, Spring 2015</p>
+        </div>
+        <div class="container col-md-4">
+          <form>
+            <fieldset>
+              <input type="text" id="name" name="name" class="input-block-level" placeholder="Name">
+              <input type="text" id="email" name="email" class="input-block-level" placeholder="Email">
+              <textarea rows="3" id="description" name="description" class="input-block-level" placeholder="Description"></textarea>
+              <button type="submit" class="btn btn-warning pull-right">Submit</button>
+            </fieldset>
+          </form>   
+        </div>
+        <div class="col-md-4 text-right">
+          <h3>
+            Connect With Us
+          </h3>
+          <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+          <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+          <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+        </div>
+      </div><!-- end row!-->
+    </div><!-- end container -->
+  </footer>
+</body>
+</html>
+
+<!-- Javascript-->
+
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+    <script src = "js/script.js"></script>
