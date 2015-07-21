@@ -6,10 +6,10 @@ body {
 
 }
 
-body, h1, h2, h3 {
-/*  font-family: 'Signika', sans-serif;*/
-font-family: 'Bangers', cursive;
-}
+body, h1, h2, h3 { /*  font-family: 'Signika', sans-serif;*/ 
+font-family: tahoma, arial, helvetica, sans-serif; }
+
+
 
 .btn-custom {
   color: #FFF;
@@ -203,6 +203,12 @@ font-family: 'Bangers', cursive;
 }
 
 /* fullwidth video (not cross-browser compatible) */
+#mainvideo{
+  max-height: 600px;
+  overflow: hidden;
+
+}
+
 video { width: 100%;}
 
 .video-overlay {
@@ -210,10 +216,11 @@ video { width: 100%;}
   display: block;
   width: 600px;
   height: 300px;
-  right: 40%;
-  bottom: 20%;
+  right: 33.33%;
+  bottom: 30%;
   padding: 1em;
 }
+
 
 /* Section Stuff */
 
@@ -282,3 +289,4 @@ footer ul li a {
   }
 
 }
+
